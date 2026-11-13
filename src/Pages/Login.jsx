@@ -6,7 +6,7 @@ function Login(props){
     const [ruser,setruser]=useState(true)
     const value=props.value
    const navigate=useNavigate()
-    const setvalue=props.setvalue
+    
     function check(){
         var userfound=false
         value.forEach(function(item){
